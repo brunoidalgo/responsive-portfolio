@@ -166,3 +166,47 @@ section .header {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
 }
+
+.features .card {
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 1em;
+    transition: all 0.3s ease;
+}
+
+.features .card:hover {
+    background-color: #353232;
+    border-color: #FFF;
+}
+
+.features .card span {
+    display: inline-block;
+    background-color: #1e40af;
+    padding: .1em .5em;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #FFF;
+    border-radius: .4em;
+}
+
+.features .card h4 {
+    margin-bottom: .5rem;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features .card p {
+    color: #CCC;
+    margin-bottom: 1rem;
+}
+
+.features .card a {
+    color: #FFF;
+    transition: all 0.3s ease;
+}
+
+.features .card a:hover {
+    color: #1e40af;
+}
